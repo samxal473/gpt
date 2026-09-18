@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menyu — Purple Cake Boutique</title>
+    <meta
+      name="description"
+      content="Purple Cake Boutique menyusu: tortlar, mini desertlər, kurabiyə, paxlava və hədiyyə qutuları. Qiymətlər Wolt menyusuna əsasən."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="menu-page">
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header is-solid" id="header">
+      <a class="logo" href="index.html" aria-label="Purple Cake Boutique ana səhifə">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 72 72" fill="none">
+            <circle cx="36" cy="36" r="34" stroke="currentColor" stroke-width="1.4" />
+            <text x="36" y="44" text-anchor="middle" font-family="Great Vibes, cursive" font-size="22" fill="currentColor">Purple</text>
+          </svg>
+        </span>
+        <span class="logo-text">
+          <em>Purple</em>
+          <small>Cake Boutique</small>
+        </span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Əsas naviqasiya">
+        <a href="index.html">Ana</a>
+        <a href="menyu.html" aria-current="page">Menyu</a>
+        <a href="index.html#kolleksiya">Kolleksiya</a>
+        <a href="index.html#haqqimizda">Haqqında</a>
+        <a href="index.html#elaqe">Əlaqə</a>
+        <a class="nav-order" href="https://wa.link/uvlotk" target="_blank" rel="noopener">Sifariş</a>
+      </nav>
+      <a class="btn btn-gold header-cta" href="https://wa.link/uvlotk" target="_blank" rel="noopener">Sifariş</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Menyu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main class="menu-main">
+      <header class="menu-hero">
+        <p class="eyebrow">Menyu</p>
+        <h1>Tort, desert,<br /><em>hədiyyə</em></h1>
+        <p class="lede">Qiymətlər 5–6 və 8–10 nəfərlik ölçülərə görə dəyişir. Xüsusi dizayn üçün WhatsApp yazın.</p>
+      </header>
+
+      <div class="filters" role="tablist" aria-label="Kateqoriya">
+        <button class="chip is-active" type="button" data-filter="all">Hamısı</button>
+        <button class="chip" type="button" data-filter="tort">Tortlar</button>
+        <button class="chip" type="button" data-filter="mini">Mini</button>
+        <button class="chip" type="button" data-filter="hediyye">Hədiyyə</button>
+        <button class="chip" type="button" data-filter="serq">Şərq</button>
+      </div>
+
+      <section class="product-list" aria-label="Məhsullar">
+        <article class="product-card" data-cat="tort">
+          <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=800&q=80" alt="Purple Velvet" />
+          <div>
+            <h2>Purple Velvet</h2>
+            <p>İmza dad · 5–6 / 8–10 nəfər</p>
+            <span>50–68 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="tort">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80" alt="Purprello tort" />
+          <div>
+            <h2>Purprello</h2>
+            <p>8–10 nəfərlik</p>
+            <span>68 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="tort">
+          <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80" alt="Brule tort" />
+          <div>
+            <h2>Brule</h2>
+            <p>8–10 nəfərlik</p>
+            <span>67 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="tort">
+          <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80" alt="Yay Bombası" />
+          <div>
+            <h2>Yay Bombası</h2>
+            <p>Təzə meyvə, yüngül krem</p>
+            <span>55 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="tort">
+          <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80" alt="Meyvəli tort" />
+          <div>
+            <h2>Meyvəli</h2>
+            <p>8–10 nəfərlik</p>
+            <span>53 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="tort">
+          <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=800&q=80" alt="Ballı tort" />
+          <div>
+            <h2>Ballı</h2>
+            <p>5–6 / 8–10 nəfər</p>
+            <span>40–60 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="tort">
+          <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=800&q=80" alt="Oreo qaymaqlı tort" />
+          <div>
+            <h2>Oreo qaymaqlı</h2>
+            <p>8–10 nəfərlik</p>
+            <span>58 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="tort">
+          <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=800&q=80" alt="Quş Südü tort" />
+          <div>
+            <h2>Quş Südü</h2>
+            <p>8–10 nəfərlik</p>
+            <span>50 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="tort">
+          <img src="https://images.unsplash.com/photo-1571875257727-256c39da42af?auto=format&fit=crop&w=800&q=80" alt="Tiramisu" />
+          <div>
+            <h2>Tiramisu</h2>
+            <p>8–10 nəfərlik</p>
+            <span>57 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="tort">
+          <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=800&q=80" alt="Red Velvet" />
+          <div>
+            <h2>Red Velvet</h2>
+            <p>Mini / 8–10 nəfər</p>
+            <span>56–66 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="tort">
+          <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=800&q=80" alt="Envol tort" />
+          <div>
+            <h2>Envol</h2>
+            <p>5–6 nəfərlik</p>
+            <span>40 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="mini">
+          <img src="https://images.unsplash.com/photo-1612203985729-70726954388c?auto=format&fit=crop&w=800&q=80" alt="Purprello mini" />
+          <div>
+            <h2>Purprello mini</h2>
+            <p>1 ədəd</p>
+            <span>11 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="mini">
+          <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=800&q=80" alt="Red Velvet mini" />
+          <div>
+            <h2>Red Velvet mini</h2>
+            <p>1 ədəd</p>
+            <span>9 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="mini">
+          <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=800&q=80" alt="Ballı mini" />
+          <div>
+            <h2>Ballı mini</h2>
+            <p>1 ədəd</p>
+            <span>9 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="mini">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80" alt="Quş Südü mini" />
+          <div>
+            <h2>Quş Südü mini</h2>
+            <p>1 ədəd</p>
+            <span>9 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="serq">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80" alt="Sütlaç" />
+          <div>
+            <h2>Sütlaç</h2>
+            <p>1 ədəd</p>
+            <span>6 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="serq">
+          <img src="https://images.unsplash.com/photo-1598110750624-207050c4f5c8?auto=format&fit=crop&w=800&q=80" alt="Paxlava" />
+          <div>
+            <h2>Paxlava</h2>
+            <p>Klassik şərq şirniyyatı</p>
+            <span>soruşun</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="hediyye">
+          <img src="https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=800&q=80" alt="Hədiyyəlik şokolad qutusu" />
+          <div>
+            <h2>Şokolad qutusu</h2>
+            <p>Hədiyyəlik</p>
+            <span>14 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="hediyye">
+          <img src="https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=800&q=80" alt="Kurabiyə seti" />
+          <div>
+            <h2>Kurabiyə seti</h2>
+            <p>Qarışıq dadlar</p>
+            <span>23 ₼</span>
+          </div>
+        </article>
+        <article class="product-card" data-cat="hediyye">
+          <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=800&q=80" alt="Hədiyyəlik mini desert" />
+          <div>
+            <h2>Mini desert cütü</h2>
+            <p>2 nəfərlik · Purple + Red Velvet</p>
+            <span>soruşun</span>
+          </div>
+        </article>
+      </section>
+
+      <p class="menu-note">
+        Qiymətlər ictimai çatdırılma menyusuna əsasən göstərilib və dəyişə bilər.
+        Xüsusi yazı, burc və uşaq dizaynı üçün
+        <a href="https://wa.link/uvlotk" target="_blank" rel="noopener">WhatsApp</a> yazın.
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <a class="logo" href="index.html">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 72 72" fill="none">
+            <circle cx="36" cy="36" r="34" stroke="currentColor" stroke-width="1.4" />
+            <text x="36" y="44" text-anchor="middle" font-family="Great Vibes, cursive" font-size="22" fill="currentColor">Purple</text>
+          </svg>
+        </span>
+        <span class="logo-text">
+          <em>Purple</em>
+          <small>Cake Boutique</small>
+        </span>
+      </a>
+      <p>© 2026 Purple Cake Boutique · Bakı</p>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/purplecakeboutique/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://wa.link/uvlotk" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="index.html#sifaris">Sifariş</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
